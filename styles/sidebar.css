@@ -1,0 +1,32 @@
+.search-bar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 74px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 10px;
+}
+.homeb{
+    width: 72px;
+    height: 74px;
+    background-color: white;
+    border: none;
+    transition: background-color 0.15s;
+    cursor: pointer;
+    padding-left: 0;
+}
+.home{
+    width: 25px;
+}
+.homeb:hover{
+    background-color: rgb(233, 233, 233);
+}
+.name{
+    font-family: Roboto;
+    font-size: 9.5px;
+    margin-top: 2px;
+    width: 100%;
+}
+
