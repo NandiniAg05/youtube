@@ -1,0 +1,232 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    padding-right: 20px;
+    background-color: white;
+    /* border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228); */
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 72px;
+    margin-right: 35px;
+    max-width: 650px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0;
+}
+.button{
+    background-color: #f7f7f7;
+    width:66px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    height: 39px;
+    border-radius: 22px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: -1px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 8px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.button:hover{
+    background-color: rgb(235, 230, 230);
+}
+.voice-button{
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    padding-top: 2px;
+    padding-left: 7px;
+}
+.voice-button:hover{
+    background-color: rgb(235, 230, 230);
+}
+
+.hamburger{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.hamburger:active{
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.hamburger:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    padding: 10px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.search-box{
+    height: 35.5px;
+    flex: 1;
+    padding-left: 15px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-right: 0px;
+    border-radius: 22px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.search-box::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.search{
+    height: 24px;
+    margin-right: 20px;
+}
+.voice{
+    height: 24px;
+}
+
+.upload{
+    height: 24px;   
+    margin-right: 15px;
+    cursor: pointer;
+}
+.notifications{
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+.my-channel{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.notification-container{
+    position: relative;
+}
+.number{
+    position: absolute;
+    top: -2px;
+    right: 13px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button ,.voice-button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button .tooltip ,.voice-button .tooltip{
+    font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.button:hover .tooltip ,.voice-button:hover .tooltip{
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .right-section img{
+        display: none;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .right-section .my-channel{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .right-section{
+        width: 30px;
+    }
+
+    .voice-button{
+        display: none;
+    }
+
+    /* .middle-section{
+        margin-right: -50px;
+        margin-left: -100px;
+    } */
+    
+    .left-section{
+        padding-left: 20px;
+    }
+
+    .search-box{
+        min-width: 5px;
+    }
+    .button{
+        width: 40px;
+    }
+
+    .middle-section{
+        max-width: 200px;
+        margin-left: 25px;
+    }
+
+}

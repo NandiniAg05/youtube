@@ -1,0 +1,118 @@
+.search-bar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 74px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 10px;
+}
+
+.search-bar a{
+    display: none;
+}
+
+.search-bar hr{
+    display: none;
+}
+.search-bar h3{
+    display: none;
+}
+
+
+.homeb{
+    width: 72px;
+    height: 74px;
+    background-color: white;
+    border: none;
+    transition: background-color 0.15s;
+    cursor: pointer;
+    padding-left: 0;
+    border-radius: 5px;
+}
+.home{
+    width: 25px;
+}
+.homeb:hover{
+    background-color: rgb(233, 233, 233);
+}
+.name{
+    font-family: Roboto;
+    font-size: 9.5px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+
+.extended{
+    width: 230px;
+
+}
+
+.extended button{
+    display: none;
+}
+
+.extended a{
+    display:flex;
+    padding: 2px;
+    padding-left: 15px;
+    border-radius: 10px;
+    align-items: center;
+    height: 38px;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+.extended a img{
+    margin-right: 23px;
+    height: 80%;
+}
+
+.extended a p{
+    font-size: 14px;
+    font-family: Roboto;
+    width: 100%;
+    color: black;
+}
+
+.extended hr{
+    display:block;
+    /* border: none; */
+    width: 90%;
+    text-align: center;
+    border: none;
+    height: 0.5px;
+    background-color: #e9e9e9;  /* Modern Browsers */
+    margin-block: 12px;
+}
+
+.extended a:hover{
+    background-color: rgb(235, 234, 234);
+}
+
+.home-first{
+    background-color: rgb(235, 234, 234);
+}
+
+.extended h3{
+    display: flex;
+    margin-inline: 10px;
+    padding-left: 15px;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hist{
+    width: 22px;
+    height: 15px;
+}
+
+@media (max-width: 800px) {
+    .search-bar, .extended{
+        display: none;
+    }  
+}

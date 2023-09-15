@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body style="padding-top: 80px; ">
+    <!-- background-color: rgb(245, 245, 245); -->
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-box" type="text" placeholder="Search">
+            <button class="button">
+                <img class="search" src="icons/search.svg">
+                <div class="tooltip">Search</div></button>
+            <button class="voice-button">
+              <img class="voice" src="icons/voice-search-icon.svg">
+             <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+           <img class="upload" src="icons/upload.svg">
+           <img class="notifications" src="icons/youtube-apps.svg">
+           <div class="notification-container">
+                <img class="notifications" src="icons/notifications.svg">
+                <div class="number">3</div>
+           </div>
+           <img class="my-channel" src="icons/my-channel.jpeg">
+        </div>
+    </div>
+    <div class="search-bar">
+        <button class="homeb">
+            <img class="home" src="icons/home.svg">
+            <p class="name">Home</p>
+        </button>
+        <button class="homeb">
+            <img class="home" src="icons/explore.svg">
+            <p class="name">Explore</p>
+        </button>
+        <button class="homeb">
+            <img class="home" src="icons/subscriptions.svg">
+            <p class="name">Subscriptions</p>
+        </button>
+        <button class="homeb">
+            <img class="home" src="icons/originals.svg">
+            <p class="name">Originals</p>
+        </button>
+        <button class="homeb">
+            <img class="home" src="icons/youtube-music.svg">
+            <p class="name">Youtube Music</p>
+        </button>
+        <button class="homeb">
+            <img class="home" src="icons/library.svg">
+            <p class="name">Library</p>
+        </button>
+
+        <!-- extended side bar -->
+
+        <a href="" class="home-first">
+            <img src="icons/home.svg" alt="home" class="home">
+            <p>Home</p>
+        </a>
+        <a href="">
+            <img src="icons/explore.svg" alt="" class="home">
+            <p>Explore</p>
+        </a>
+        <a href="">
+            <img src="icons/subscriptions.svg" alt="" class="home">
+            <p>Subscriptions</p>
+        </a>
+
+        <hr>
+        <a href="">
+            <img src="icons/library.svg" alt="" class="home">
+            <p>Library</p>
+        </a>
+        <a href="">
+            <img src="icons/hist.png" alt="" class="home hist">
+            <p>History</p>
+        </a>
+        <a href="">
+            <img src="icons/originals.svg" alt="" class="home">
+            <p>Originals</p>
+        </a>
+        <a href="">
+            <img src="icons/show-more.png" alt="" class="home">
+            <p>Show more</p>
+        </a>
+
+        <hr>
+
+        
+        <h3>Subscriptions</h3>
+        <a href="">
+            <img class="profile-picture" src="channelname/channel-1.jpeg" alt="" class="home">
+            <p>Marques Brownlee</p>
+        </a>
+        <a href="">
+            <img class="profile-picture" src="channelname/channel-2.jpeg" alt="" class="home">
+            <p>Markiplier</p>
+        </a>
+    </div>
+
+    <!-- suggestions -->
+
+    <div class="categories">
+        <buttons class="types first"><p>All</p></buttons>
+        <buttons class="types"><p>HTML</p></buttons>
+        <buttons class="types"><p>Music</p></buttons>
+        <buttons class="types"><p>Comedy</p></buttons>
+        <buttons class="types"><p>Dramedy</p></buttons>
+        <buttons class="types"><p>Gaming</p></buttons>
+        <buttons class="types"><p>Live</p></buttons>
+        <buttons class="types"><p>Guitar</p></buttons>
+        <buttons class="types"><p>Comedy</p></buttons>
+        <buttons class="types"><p>Dramedy</p></buttons>
+        <buttons class="types"><p>Gaming</p></buttons>
+        <buttons class="types"><p>Live</p></buttons>
+        <buttons class="types"><p>Guitar</p></buttons>
+    </div>
+
+    <!-- videos -->
+    
+    <div class="video-grid">
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Error loading image"></a>
+            <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid"> 
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <a href="video.html" style="text-decoration: none; color: black;">
+                  <p class="texta">
+                   Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+              </a>
+              <p class="textb">Marques Brownlee</p>
+              <p class="textb">3.4M views &#183 6 months ago</p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="Error loading image">
+            <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    Try Not To Laugh Challenge &#x23;9  
+                </p>
+                <p class="textb">Markiplier</p>
+                <p class="textb">19M views &#183 4 years ago</p>
+            </div>            
+        </div>       
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="Error loading image">
+            <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid"> 
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-3.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+               Crazy Tik Toks Taken Moments Before DISASTER  
+              </p>
+              <p class="textb">SSSniperWolf</p>
+              <p class="textb">12M views &#183 1 year ago</p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="Error loading image">
+            <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    The Simplest Math Problem No One Can Solve - Collatz Conjecture  
+                </p>
+                <p class="textb">Veritasium</p>
+                <p class="textb">18M views &#183 4 months ago</p>
+            </div>            
+        </div>       
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="Error loading image">
+            <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid"> 
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="textb">CS Dojo</p>
+              <p class="textb">519K views &#183 5 years ago</p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="Error loading image">
+            <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    Anything You Can Fit In The Circle I'll Pay For  
+                </p>
+                <p class="textb">MrBeast</p>
+                <p class="textb">141M views &#183 1 year ago</p>
+            </div>            
+        </div>       
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="Error loading image">
+            <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    The Simplest Math Problem No One Can Solve - Collatz Conjecture  
+                </p>
+                <p class="textb">Veritasium</p>
+                <p class="textb">18M views &#183 4 months ago</p>
+            </div>            
+        </div>       
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="Error loading image">
+            <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid"> 
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="textb">CS Dojo</p>
+              <p class="textb">519K views &#183 5 years ago</p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="Error loading image">
+            <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channelname">
+                <img class="profile-picture" src="channelname/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+                <p class="texta">
+                    Anything You Can Fit In The Circle I'll Pay For  
+                </p>
+                <p class="textb">MrBeast</p>
+                <p class="textb">141M views &#183 1 year ago</p>
+            </div>            
+        </div>       
+    </div>
+</div>   
+
+<script src="index.js"></script>
+</body>
+</html>
